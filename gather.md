@@ -13,9 +13,6 @@
 
 (2)当obj1.hashCode() == obj2.hashCode()为false时，obj1.equals(obj2)必须为false
 
-
-
-
 #####3为啥重写equals?#####
 
 如果不重写equals，那么比较的将是对象的引用是否指向同一块内存地址，重写之后目的是为了比较两个对象的value值是否相等。
